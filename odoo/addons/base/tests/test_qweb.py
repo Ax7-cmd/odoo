@@ -3138,7 +3138,7 @@ class TestQwebCache(TransactionCase):
         expected = dedent("""
             <html>
                 <head>
-                    <title>Odoo</title>
+                    <title>Scolabs</title>
                 </head>
                 <body>
                     <section class="toto">
@@ -3152,7 +3152,7 @@ class TestQwebCache(TransactionCase):
             'html': html.document_fromstring("""
                 <html t-name="html">
                     <head>
-                        <title>Odoo</title>
+                        <title>Scolabs</title>
                     </head>
                     <body>
                         <section class="toto">
