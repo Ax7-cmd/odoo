@@ -570,11 +570,11 @@
       const tip = this.getTipElement();
 
       const complete = () => {
-        // Odoo patch
+        // Scolabs patch
         if (!this._element || !this._config) {
           return;
         }
-        // End Odoo patch
+        // End Scolabs patch
         if (this._isWithActiveTrigger()) {
           return;
         }

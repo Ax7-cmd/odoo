@@ -1,4 +1,4 @@
-# Translation of Odoo Server.
+# Translation of Scolabs Server.
 # This file contains the translation of the following modules:
 # 	* web
 # 
@@ -7,15 +7,15 @@
 # Martin Trigaux, 2024
 # Erwin van der Ploeg <erwin@odooexperts.nl>, 2024
 # Larissa Manderfeld, 2024
-# Wil Odoo, 2024
+# Wil Scolabs, 2024
 # 
 msgid ""
 msgstr ""
-"Project-Id-Version: Odoo Server 17.0\n"
+"Project-Id-Version: Scolabs Server 17.0\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2024-01-29 10:46+0000\n"
 "PO-Revision-Date: 2023-10-26 23:09+0000\n"
-"Last-Translator: Wil Odoo, 2024\n"
+"Last-Translator: Wil Scolabs, 2024\n"
 "Language-Team: Dutch (https://app.transifex.com/odoo/teams/41243/nl/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -1731,10 +1731,10 @@ msgstr "Opnieuw controleren"
 #. module: web
 #: model_terms:ir.ui.view,arch_db:web.webclient_offline
 msgid ""
-"Check your network connection and come back here. Odoo will load as soon as "
+"Check your network connection and come back here. Scolabs will load as soon as "
 "you're back online."
 msgstr ""
-"Controleer je netwerkverbinding en kom terug. Odoo wordt geladen zodra je "
+"Controleer je netwerkverbinding en kom terug. Scolabs wordt geladen zodra je "
 "terug online bent."
 
 #. module: web
@@ -3388,8 +3388,8 @@ msgstr "Bekijk weergave"
 #. odoo-javascript
 #: code:addons/web/static/src/webclient/settings_form_view/fields/upgrade_dialog.xml:0
 #, python-format
-msgid "Get this feature and much more with Odoo Enterprise!"
-msgstr "Krijg deze optie en veel meer met Odoo Enterprise!"
+msgid "Get this feature and much more with Scolabs Enterprise!"
+msgstr "Krijg deze optie en veel meer met Scolabs Enterprise!"
 
 #. module: web
 #. odoo-javascript
@@ -3680,10 +3680,10 @@ msgstr "Inclusief gearchiveerde"
 #: code:addons/web/static/src/core/install_prompt/install_prompt.xml:0
 #, python-format
 msgid ""
-"Install Odoo on your device to access it easily. Here are the steps to "
+"Install Scolabs on your device to access it easily. Here are the steps to "
 "follow:"
 msgstr ""
-"Installeer Odoo op uw apparaat om er gemakkelijk toegang toe te krijgen. "
+"Installeer Scolabs op uw apparaat om er gemakkelijk toegang toe te krijgen. "
 "Hier zijn de stappen die u moet volgen:"
 
 #. module: web
@@ -4720,8 +4720,8 @@ msgstr "Moslim"
 #. odoo-javascript
 #: code:addons/web/static/src/webclient/user_menu/user_menu_items.js:0
 #, python-format
-msgid "My Odoo.com account"
-msgstr "Mijn Odoo.com account"
+msgid "My Scolabs.com account"
+msgstr "Mijn Scolabs.com account"
 
 #. module: web
 #. odoo-javascript
@@ -5168,84 +5168,84 @@ msgstr "Objecten"
 #: code:addons/web/static/src/webclient/settings_form_view/widgets/res_config_edition.xml:0
 #: model_terms:ir.ui.view,arch_db:web.brand_promotion_message
 #, python-format
-msgid "Odoo"
-msgstr "Odoo"
+msgid "Scolabs"
+msgstr "Scolabs"
 
 #. module: web
 #. odoo-javascript
 #: code:addons/web/static/src/core/errors/error_dialogs.js:0
 #: code:addons/web/static/src/core/errors/error_dialogs.js:0
 #, python-format
-msgid "Odoo Client Error"
-msgstr "Odoo cliënt fout"
+msgid "Scolabs Client Error"
+msgstr "Scolabs cliënt fout"
 
 #. module: web
 #. odoo-javascript
 #: code:addons/web/static/src/core/errors/error_dialogs.js:0
 #, python-format
-msgid "Odoo Error"
-msgstr "Odoo fout"
+msgid "Scolabs Error"
+msgstr "Scolabs fout"
 
 #. module: web
 #. odoo-javascript
 #: code:addons/web/static/src/core/errors/error_dialogs.js:0
 #: code:addons/web/static/src/core/errors/error_dialogs.js:0
 #, python-format
-msgid "Odoo Network Error"
-msgstr "Odoo-netwerkfout"
+msgid "Scolabs Network Error"
+msgstr "Scolabs-netwerkfout"
 
 #. module: web
 #. odoo-javascript
 #: code:addons/web/static/src/views/widgets/notification_alert/notification_alert.xml:0
 #, python-format
 msgid ""
-"Odoo Push notifications have been blocked. Go to your browser settings to "
+"Scolabs Push notifications have been blocked. Go to your browser settings to "
 "allow them."
 msgstr ""
-"Odoo Pushmeldingen zijn geblokkeerd. Ga naar je browserinstellingen om ze "
+"Scolabs Pushmeldingen zijn geblokkeerd. Ga naar je browserinstellingen om ze "
 "toe te staan."
 
 #. module: web
 #. odoo-javascript
 #: code:addons/web/static/src/webclient/settings_form_view/widgets/res_config_edition.xml:0
 #, python-format
-msgid "Odoo S.A."
-msgstr "Odoo S.A."
+msgid "Scolabs S.A."
+msgstr "Scolabs S.A."
 
 #. module: web
 #. odoo-javascript
 #: code:addons/web/static/src/core/errors/error_dialogs.js:0
 #, python-format
-msgid "Odoo Server Error"
-msgstr "Odoo-serverfout"
+msgid "Scolabs Server Error"
+msgstr "Scolabs-serverfout"
 
 #. module: web
 #. odoo-javascript
 #: code:addons/web/static/src/core/errors/error_dialogs.js:0
 #: code:addons/web/static/src/public/error_notifications.js:0
 #, python-format
-msgid "Odoo Session Expired"
-msgstr "Odoo sessie verlopen"
+msgid "Scolabs Session Expired"
+msgstr "Scolabs sessie verlopen"
 
 #. module: web
 #. odoo-javascript
 #: code:addons/web/static/src/core/errors/error_dialogs.js:0
 #: code:addons/web/static/src/core/errors/error_dialogs.js:0
 #, python-format
-msgid "Odoo Warning"
-msgstr "Odoo foutmelding"
+msgid "Scolabs Warning"
+msgstr "Scolabs foutmelding"
 
 #. module: web
 #: model_terms:ir.ui.view,arch_db:web.webclient_offline
-msgid "Odoo logo"
-msgstr "Logo Odoo"
+msgid "Scolabs logo"
+msgstr "Logo Scolabs"
 
 #. module: web
 #. odoo-javascript
 #: code:addons/web/static/src/webclient/barcode/barcode_scanner.js:0
 #, python-format
-msgid "Odoo needs your authorization first."
-msgstr "Odoo heeft eerst je autorisatie nodig."
+msgid "Scolabs needs your authorization first."
+msgstr "Scolabs heeft eerst je autorisatie nodig."
 
 #. module: web
 #. odoo-javascript
@@ -5650,8 +5650,8 @@ msgstr "Aangeboden door %s%s"
 
 #. module: web
 #: model_terms:ir.ui.view,arch_db:web.login_layout
-msgid "Powered by <span>Odoo</span>"
-msgstr "Aangeboden door <span>Odoo</span>"
+msgid "Powered by <span>Scolabs</span>"
+msgstr "Aangeboden door <span>Scolabs</span>"
 
 #. module: web
 #. odoo-javascript
@@ -8151,10 +8151,10 @@ msgstr ""
 #: code:addons/web/static/src/webclient/actions/reports/utils.js:0
 #, python-format
 msgid ""
-"You need to start Odoo with at least two workers to print a pdf version of "
+"You need to start Scolabs with at least two workers to print a pdf version of "
 "the reports."
 msgstr ""
-"Je moet Odoo starten met minimaal twee werkers om een PDF versie van de "
+"Je moet Scolabs starten met minimaal twee werkers om een PDF versie van de "
 "rapportages te kunnen afdrukken."
 
 #. module: web
@@ -8175,9 +8175,9 @@ msgstr ""
 #: code:addons/web/static/src/core/errors/error_dialogs.xml:0
 #: code:addons/web/static/src/public/error_notifications.js:0
 #, python-format
-msgid "Your Odoo session expired. The current page is about to be refreshed."
+msgid "Your Scolabs session expired. The current page is about to be refreshed."
 msgstr ""
-"Jouw Odoo-sessie is verlopen. De huidige pagina wordt binnenkort vernieuwd."
+"Jouw Scolabs-sessie is verlopen. De huidige pagina wordt binnenkort vernieuwd."
 
 #. module: web
 #. odoo-javascript
@@ -9713,7 +9713,7 @@ msgstr "schoonheid"
 #: code:addons/web/static/src/core/ui/block_ui.js:0
 #, python-format
 msgid "because it's loading..."
-msgstr "omdat Odoo aan het laden is..."
+msgstr "omdat Scolabs aan het laden is..."
 
 #. module: web
 #. odoo-javascript
@@ -19278,7 +19278,7 @@ msgstr "eiland"
 #: code:addons/web/static/src/core/ui/block_ui.js:0
 #, python-format
 msgid "it's still loading..."
-msgstr "Odoo is nog aan het laden..."
+msgstr "Scolabs is nog aan het laden..."
 
 #. module: web
 #. odoo-javascript

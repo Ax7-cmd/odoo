@@ -1,4 +1,4 @@
-# Translation of Odoo Server.
+# Translation of Scolabs Server.
 # This file contains the translation of the following modules:
 # 	* web
 # 
@@ -28,7 +28,7 @@
 # 
 msgid ""
 msgstr ""
-"Project-Id-Version: Odoo Server 17.0\n"
+"Project-Id-Version: Scolabs Server 17.0\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2024-01-29 10:46+0000\n"
 "PO-Revision-Date: 2023-10-26 23:09+0000\n"
@@ -1720,7 +1720,7 @@ msgstr "بررسی دوباره"
 #. module: web
 #: model_terms:ir.ui.view,arch_db:web.webclient_offline
 msgid ""
-"Check your network connection and come back here. Odoo will load as soon as "
+"Check your network connection and come back here. Scolabs will load as soon as "
 "you're back online."
 msgstr ""
 
@@ -3349,7 +3349,7 @@ msgstr ""
 #. odoo-javascript
 #: code:addons/web/static/src/webclient/settings_form_view/fields/upgrade_dialog.xml:0
 #, python-format
-msgid "Get this feature and much more with Odoo Enterprise!"
+msgid "Get this feature and much more with Scolabs Enterprise!"
 msgstr ""
 
 #. module: web
@@ -3626,7 +3626,7 @@ msgstr "شامل آرشیوشده"
 #: code:addons/web/static/src/core/install_prompt/install_prompt.xml:0
 #, python-format
 msgid ""
-"Install Odoo on your device to access it easily. Here are the steps to "
+"Install Scolabs on your device to access it easily. Here are the steps to "
 "follow:"
 msgstr ""
 
@@ -4658,8 +4658,8 @@ msgstr ""
 #. odoo-javascript
 #: code:addons/web/static/src/webclient/user_menu/user_menu_items.js:0
 #, python-format
-msgid "My Odoo.com account"
-msgstr "اکانت من در Odoo.com"
+msgid "My Scolabs.com account"
+msgstr "اکانت من در Scolabs.com"
 
 #. module: web
 #. odoo-javascript
@@ -5106,7 +5106,7 @@ msgstr ""
 #: code:addons/web/static/src/webclient/settings_form_view/widgets/res_config_edition.xml:0
 #: model_terms:ir.ui.view,arch_db:web.brand_promotion_message
 #, python-format
-msgid "Odoo"
+msgid "Scolabs"
 msgstr "اودو"
 
 #. module: web
@@ -5114,14 +5114,14 @@ msgstr "اودو"
 #: code:addons/web/static/src/core/errors/error_dialogs.js:0
 #: code:addons/web/static/src/core/errors/error_dialogs.js:0
 #, python-format
-msgid "Odoo Client Error"
+msgid "Scolabs Client Error"
 msgstr "خطای کلاینت اودو"
 
 #. module: web
 #. odoo-javascript
 #: code:addons/web/static/src/core/errors/error_dialogs.js:0
 #, python-format
-msgid "Odoo Error"
+msgid "Scolabs Error"
 msgstr "خطای اودو"
 
 #. module: web
@@ -5129,7 +5129,7 @@ msgstr "خطای اودو"
 #: code:addons/web/static/src/core/errors/error_dialogs.js:0
 #: code:addons/web/static/src/core/errors/error_dialogs.js:0
 #, python-format
-msgid "Odoo Network Error"
+msgid "Scolabs Network Error"
 msgstr "خطای شبکه اودوو"
 
 #. module: web
@@ -5137,7 +5137,7 @@ msgstr "خطای شبکه اودوو"
 #: code:addons/web/static/src/views/widgets/notification_alert/notification_alert.xml:0
 #, python-format
 msgid ""
-"Odoo Push notifications have been blocked. Go to your browser settings to "
+"Scolabs Push notifications have been blocked. Go to your browser settings to "
 "allow them."
 msgstr ""
 
@@ -5145,14 +5145,14 @@ msgstr ""
 #. odoo-javascript
 #: code:addons/web/static/src/webclient/settings_form_view/widgets/res_config_edition.xml:0
 #, python-format
-msgid "Odoo S.A."
+msgid "Scolabs S.A."
 msgstr "سایت اودوو "
 
 #. module: web
 #. odoo-javascript
 #: code:addons/web/static/src/core/errors/error_dialogs.js:0
 #, python-format
-msgid "Odoo Server Error"
+msgid "Scolabs Server Error"
 msgstr "خطای سرور اودوو"
 
 #. module: web
@@ -5160,7 +5160,7 @@ msgstr "خطای سرور اودوو"
 #: code:addons/web/static/src/core/errors/error_dialogs.js:0
 #: code:addons/web/static/src/public/error_notifications.js:0
 #, python-format
-msgid "Odoo Session Expired"
+msgid "Scolabs Session Expired"
 msgstr "نشست اودو منقضی شده"
 
 #. module: web
@@ -5168,19 +5168,19 @@ msgstr "نشست اودو منقضی شده"
 #: code:addons/web/static/src/core/errors/error_dialogs.js:0
 #: code:addons/web/static/src/core/errors/error_dialogs.js:0
 #, python-format
-msgid "Odoo Warning"
+msgid "Scolabs Warning"
 msgstr "هشدار اودو"
 
 #. module: web
 #: model_terms:ir.ui.view,arch_db:web.webclient_offline
-msgid "Odoo logo"
+msgid "Scolabs logo"
 msgstr ""
 
 #. module: web
 #. odoo-javascript
 #: code:addons/web/static/src/webclient/barcode/barcode_scanner.js:0
 #, python-format
-msgid "Odoo needs your authorization first."
+msgid "Scolabs needs your authorization first."
 msgstr ""
 
 #. module: web
@@ -5578,7 +5578,7 @@ msgstr "قدرت گرفته از %s%s"
 
 #. module: web
 #: model_terms:ir.ui.view,arch_db:web.login_layout
-msgid "Powered by <span>Odoo</span>"
+msgid "Powered by <span>Scolabs</span>"
 msgstr "قدرت گرفته از <span>اودوو</span>"
 
 #. module: web
@@ -8032,7 +8032,7 @@ msgstr ""
 #: code:addons/web/static/src/webclient/actions/reports/utils.js:0
 #, python-format
 msgid ""
-"You need to start Odoo with at least two workers to print a pdf version of "
+"You need to start Scolabs with at least two workers to print a pdf version of "
 "the reports."
 msgstr ""
 
@@ -8051,7 +8051,7 @@ msgstr ""
 #: code:addons/web/static/src/core/errors/error_dialogs.xml:0
 #: code:addons/web/static/src/public/error_notifications.js:0
 #, python-format
-msgid "Your Odoo session expired. The current page is about to be refreshed."
+msgid "Your Scolabs session expired. The current page is about to be refreshed."
 msgstr "نشست اودوو شما منقضی شده است. این صفحه بازفراخوانی خواهد شد."
 
 #. module: web

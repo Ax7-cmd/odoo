@@ -66,7 +66,7 @@ QUnit.module("download", (hooks) => {
                 arguments: ["Business Error Message", "someArg"],
                 message: "Business Error Message",
             },
-            message: "Odoo Server Error",
+            message: "Scolabs Server Error",
         };
 
         async function send() {

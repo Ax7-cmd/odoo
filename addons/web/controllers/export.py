@@ -1,4 +1,4 @@
-# Part of Odoo. See LICENSE file for full copyright and licensing details.
+# Part of Scolabs. See LICENSE file for full copyright and licensing details.
 
 import datetime
 import functools
@@ -452,7 +452,7 @@ class ExportFormat(object):
         return f"{model_description} ({base})"
 
     def from_data(self, fields, rows):
-        """ Conversion method from Odoo's export data to whatever the
+        """ Conversion method from Scolabs's export data to whatever the
         current export class outputs
 
         :params list fields: a list of fields to export
@@ -517,7 +517,7 @@ class CSVExport(ExportFormat, http.Controller):
             _logger.exception("Exception during request handling.")
             payload = json.dumps({
                 'code': 200,
-                'message': "Odoo Server Error",
+                'message': "Scolabs Server Error",
                 'data': http.serialize_exception(exc)
             })
             raise InternalServerError(payload) from exc
@@ -561,7 +561,7 @@ class ExcelExport(ExportFormat, http.Controller):
             _logger.exception("Exception during request handling.")
             payload = json.dumps({
                 'code': 200,
-                'message': "Odoo Server Error",
+                'message': "Scolabs Server Error",
                 'data': http.serialize_exception(exc)
             })
             raise InternalServerError(payload) from exc

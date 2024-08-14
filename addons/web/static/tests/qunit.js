@@ -573,7 +573,7 @@ export function setupQUnit() {
     // Error management
     // -----------------------------------------------------------------------------
 
-    QUnit.on("OdooAfterTestHook", (info) => {
+    QUnit.on("ScolabsAfterTestHook", (info) => {
         const { expectErrors, unverifiedErrors } = QUnit.config.current;
         if (expectErrors && unverifiedErrors.length) {
             QUnit.pushFailure(

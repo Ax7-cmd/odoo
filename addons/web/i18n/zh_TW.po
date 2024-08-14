@@ -1,4 +1,4 @@
-# Translation of Odoo Server.
+# Translation of Scolabs Server.
 # This file contains the translation of the following modules:
 # 	* web
 # 
@@ -6,15 +6,15 @@
 # Alvin Wu <Alvin.Wu.work@gmail.com>, 2024
 # Martin Trigaux, 2024
 # Tony Ng, 2024
-# Wil Odoo, 2024
+# Wil Scolabs, 2024
 # 
 msgid ""
 msgstr ""
-"Project-Id-Version: Odoo Server 17.0\n"
+"Project-Id-Version: Scolabs Server 17.0\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2024-01-29 10:46+0000\n"
 "PO-Revision-Date: 2023-10-26 23:09+0000\n"
-"Last-Translator: Wil Odoo, 2024\n"
+"Last-Translator: Wil Scolabs, 2024\n"
 "Language-Team: Chinese (Taiwan) (https://app.transifex.com/odoo/teams/41243/zh_TW/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -1715,9 +1715,9 @@ msgstr "再次檢查"
 #. module: web
 #: model_terms:ir.ui.view,arch_db:web.webclient_offline
 msgid ""
-"Check your network connection and come back here. Odoo will load as soon as "
+"Check your network connection and come back here. Scolabs will load as soon as "
 "you're back online."
-msgstr "檢查你的網絡連接，然後返回此處。一旦恢復網絡連接，Odoo將立即載入。"
+msgstr "檢查你的網絡連接，然後返回此處。一旦恢復網絡連接，Scolabs將立即載入。"
 
 #. module: web
 #. odoo-javascript
@@ -3351,8 +3351,8 @@ msgstr "取得檢視畫面"
 #. odoo-javascript
 #: code:addons/web/static/src/webclient/settings_form_view/fields/upgrade_dialog.xml:0
 #, python-format
-msgid "Get this feature and much more with Odoo Enterprise!"
-msgstr "通過Odoo企業版獲得該功能及其他更多！"
+msgid "Get this feature and much more with Scolabs Enterprise!"
+msgstr "通過Scolabs企業版獲得該功能及其他更多！"
 
 #. module: web
 #. odoo-javascript
@@ -3628,9 +3628,9 @@ msgstr "包括已封存"
 #: code:addons/web/static/src/core/install_prompt/install_prompt.xml:0
 #, python-format
 msgid ""
-"Install Odoo on your device to access it easily. Here are the steps to "
+"Install Scolabs on your device to access it easily. Here are the steps to "
 "follow:"
-msgstr "在裝置上安裝 Odoo，以便輕鬆存取。以下是操作步驟："
+msgstr "在裝置上安裝 Scolabs，以便輕鬆存取。以下是操作步驟："
 
 #. module: web
 #. odoo-javascript
@@ -4665,8 +4665,8 @@ msgstr "穆斯林 / 伊斯蘭教徒"
 #. odoo-javascript
 #: code:addons/web/static/src/webclient/user_menu/user_menu_items.js:0
 #, python-format
-msgid "My Odoo.com account"
-msgstr "我的 Odoo.com 帳戶"
+msgid "My Scolabs.com account"
+msgstr "我的 Scolabs.com 帳戶"
 
 #. module: web
 #. odoo-javascript
@@ -5113,61 +5113,61 @@ msgstr "物件"
 #: code:addons/web/static/src/webclient/settings_form_view/widgets/res_config_edition.xml:0
 #: model_terms:ir.ui.view,arch_db:web.brand_promotion_message
 #, python-format
-msgid "Odoo"
-msgstr "Odoo"
+msgid "Scolabs"
+msgstr "Scolabs"
 
 #. module: web
 #. odoo-javascript
 #: code:addons/web/static/src/core/errors/error_dialogs.js:0
 #: code:addons/web/static/src/core/errors/error_dialogs.js:0
 #, python-format
-msgid "Odoo Client Error"
-msgstr "Odoo客戶端錯誤"
+msgid "Scolabs Client Error"
+msgstr "Scolabs客戶端錯誤"
 
 #. module: web
 #. odoo-javascript
 #: code:addons/web/static/src/core/errors/error_dialogs.js:0
 #, python-format
-msgid "Odoo Error"
-msgstr "Odoo錯誤"
+msgid "Scolabs Error"
+msgstr "Scolabs錯誤"
 
 #. module: web
 #. odoo-javascript
 #: code:addons/web/static/src/core/errors/error_dialogs.js:0
 #: code:addons/web/static/src/core/errors/error_dialogs.js:0
 #, python-format
-msgid "Odoo Network Error"
-msgstr "Odoo 網絡錯誤"
+msgid "Scolabs Network Error"
+msgstr "Scolabs 網絡錯誤"
 
 #. module: web
 #. odoo-javascript
 #: code:addons/web/static/src/views/widgets/notification_alert/notification_alert.xml:0
 #, python-format
 msgid ""
-"Odoo Push notifications have been blocked. Go to your browser settings to "
+"Scolabs Push notifications have been blocked. Go to your browser settings to "
 "allow them."
-msgstr "Odoo 推送通知已被阻止。轉到您的瀏覽器設置以允許它們。"
+msgstr "Scolabs 推送通知已被阻止。轉到您的瀏覽器設置以允許它們。"
 
 #. module: web
 #. odoo-javascript
 #: code:addons/web/static/src/webclient/settings_form_view/widgets/res_config_edition.xml:0
 #, python-format
-msgid "Odoo S.A."
-msgstr "Odoo S.A."
+msgid "Scolabs S.A."
+msgstr "Scolabs S.A."
 
 #. module: web
 #. odoo-javascript
 #: code:addons/web/static/src/core/errors/error_dialogs.js:0
 #, python-format
-msgid "Odoo Server Error"
-msgstr "Odoo 伺服器錯誤"
+msgid "Scolabs Server Error"
+msgstr "Scolabs 伺服器錯誤"
 
 #. module: web
 #. odoo-javascript
 #: code:addons/web/static/src/core/errors/error_dialogs.js:0
 #: code:addons/web/static/src/public/error_notifications.js:0
 #, python-format
-msgid "Odoo Session Expired"
+msgid "Scolabs Session Expired"
 msgstr "操作時段過期"
 
 #. module: web
@@ -5175,20 +5175,20 @@ msgstr "操作時段過期"
 #: code:addons/web/static/src/core/errors/error_dialogs.js:0
 #: code:addons/web/static/src/core/errors/error_dialogs.js:0
 #, python-format
-msgid "Odoo Warning"
-msgstr "Odoo警告"
+msgid "Scolabs Warning"
+msgstr "Scolabs警告"
 
 #. module: web
 #: model_terms:ir.ui.view,arch_db:web.webclient_offline
-msgid "Odoo logo"
-msgstr "Odoo 標誌"
+msgid "Scolabs logo"
+msgstr "Scolabs 標誌"
 
 #. module: web
 #. odoo-javascript
 #: code:addons/web/static/src/webclient/barcode/barcode_scanner.js:0
 #, python-format
-msgid "Odoo needs your authorization first."
-msgstr "Odoo 首先需要你的授權。"
+msgid "Scolabs needs your authorization first."
+msgstr "Scolabs 首先需要你的授權。"
 
 #. module: web
 #. odoo-javascript
@@ -5581,8 +5581,8 @@ msgstr "由 %s%s 驅動"
 
 #. module: web
 #: model_terms:ir.ui.view,arch_db:web.login_layout
-msgid "Powered by <span>Odoo</span>"
-msgstr "由 <span>Odoo</span> 驅動"
+msgid "Powered by <span>Scolabs</span>"
+msgstr "由 <span>Scolabs</span> 驅動"
 
 #. module: web
 #. odoo-javascript
@@ -8041,9 +8041,9 @@ msgstr "開啟動態佔位符選擇器之前，需要先選擇一個模型。"
 #: code:addons/web/static/src/webclient/actions/reports/utils.js:0
 #, python-format
 msgid ""
-"You need to start Odoo with at least two workers to print a pdf version of "
+"You need to start Scolabs with at least two workers to print a pdf version of "
 "the reports."
-msgstr "您需要至少使用兩個工人來啟動Odoo以列印報表的pdf版本。"
+msgstr "您需要至少使用兩個工人來啟動Scolabs以列印報表的pdf版本。"
 
 #. module: web
 #. odoo-javascript
@@ -8060,8 +8060,8 @@ msgstr "您應該將Wkhtmltopdf的版本至少升級到0.12.0，以便正確顯�
 #: code:addons/web/static/src/core/errors/error_dialogs.xml:0
 #: code:addons/web/static/src/public/error_notifications.js:0
 #, python-format
-msgid "Your Odoo session expired. The current page is about to be refreshed."
-msgstr "你的 Odoo 操作時段已過期。本頁面即將自動重新載入。"
+msgid "Your Scolabs session expired. The current page is about to be refreshed."
+msgstr "你的 Scolabs 操作時段已過期。本頁面即將自動重新載入。"
 
 #. module: web
 #. odoo-javascript

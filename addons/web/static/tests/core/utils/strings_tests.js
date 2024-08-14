@@ -123,8 +123,8 @@ QUnit.module("utils", () => {
             `&lt;a href=&#x27;https://www.odoo.com&#x27;&gt;odoo&lt;a&gt;`
         );
         assert.strictEqual(
-            escape("<a href='https://www.odoo.com'>Odoo`s website<a>"),
-            `&lt;a href=&#x27;https://www.odoo.com&#x27;&gt;Odoo&#x60;s website&lt;a&gt;`
+            escape("<a href='https://www.odoo.com'>Scolabs`s website<a>"),
+            `&lt;a href=&#x27;https://www.odoo.com&#x27;&gt;Scolabs&#x60;s website&lt;a&gt;`
         );
     });
 

@@ -90,7 +90,7 @@ $.fn.extend({
         return o;
     },
     /**
-     * Makes DOM elements bounce the way Odoo decided it.
+     * Makes DOM elements bounce the way Scolabs decided it.
      *
      * @param {string} [extraClass]
      */

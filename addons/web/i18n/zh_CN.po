@@ -1,4 +1,4 @@
-# Translation of Odoo Server.
+# Translation of Scolabs Server.
 # This file contains the translation of the following modules:
 # 	* web
 # 
@@ -8,12 +8,12 @@
 # 湘子 南 <1360857908@qq.com>, 2024
 # Martin Trigaux, 2024
 # Chloe Wang, 2024
-# Wil Odoo, 2024
+# Wil Scolabs, 2024
 # Jeffery CHEN <jeffery9@gmail.com>, 2024
 # 
 msgid ""
 msgstr ""
-"Project-Id-Version: Odoo Server 17.0\n"
+"Project-Id-Version: Scolabs Server 17.0\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2024-01-29 10:46+0000\n"
 "PO-Revision-Date: 2023-10-26 23:09+0000\n"
@@ -1719,7 +1719,7 @@ msgstr "重新检查"
 #. module: web
 #: model_terms:ir.ui.view,arch_db:web.webclient_offline
 msgid ""
-"Check your network connection and come back here. Odoo will load as soon as "
+"Check your network connection and come back here. Scolabs will load as soon as "
 "you're back online."
 msgstr "检查您的网络连接，然后返回此处。一旦恢复网络连接，ERP 将立即线上加载."
 
@@ -3355,8 +3355,8 @@ msgstr "获取视图"
 #. odoo-javascript
 #: code:addons/web/static/src/webclient/settings_form_view/fields/upgrade_dialog.xml:0
 #, python-format
-msgid "Get this feature and much more with Odoo Enterprise!"
-msgstr "通过Odoo企业版获得该功能及其他更多！"
+msgid "Get this feature and much more with Scolabs Enterprise!"
+msgstr "通过Scolabs企业版获得该功能及其他更多！"
 
 #. module: web
 #. odoo-javascript
@@ -3632,7 +3632,7 @@ msgstr "包括已归档"
 #: code:addons/web/static/src/core/install_prompt/install_prompt.xml:0
 #, python-format
 msgid ""
-"Install Odoo on your device to access it easily. Here are the steps to "
+"Install Scolabs on your device to access it easily. Here are the steps to "
 "follow:"
 msgstr "在设备上安装 ERP，以便轻松访问。以下是操作步骤："
 
@@ -4669,8 +4669,8 @@ msgstr "伊斯兰教徒"
 #. odoo-javascript
 #: code:addons/web/static/src/webclient/user_menu/user_menu_items.js:0
 #, python-format
-msgid "My Odoo.com account"
-msgstr "Odoo.com账户"
+msgid "My Scolabs.com account"
+msgstr "Scolabs.com账户"
 
 #. module: web
 #. odoo-javascript
@@ -5117,38 +5117,38 @@ msgstr "对象"
 #: code:addons/web/static/src/webclient/settings_form_view/widgets/res_config_edition.xml:0
 #: model_terms:ir.ui.view,arch_db:web.brand_promotion_message
 #, python-format
-msgid "Odoo"
-msgstr "Odoo"
+msgid "Scolabs"
+msgstr "Scolabs"
 
 #. module: web
 #. odoo-javascript
 #: code:addons/web/static/src/core/errors/error_dialogs.js:0
 #: code:addons/web/static/src/core/errors/error_dialogs.js:0
 #, python-format
-msgid "Odoo Client Error"
-msgstr "Odoo客户端错误"
+msgid "Scolabs Client Error"
+msgstr "Scolabs客户端错误"
 
 #. module: web
 #. odoo-javascript
 #: code:addons/web/static/src/core/errors/error_dialogs.js:0
 #, python-format
-msgid "Odoo Error"
-msgstr "Odoo错误"
+msgid "Scolabs Error"
+msgstr "Scolabs错误"
 
 #. module: web
 #. odoo-javascript
 #: code:addons/web/static/src/core/errors/error_dialogs.js:0
 #: code:addons/web/static/src/core/errors/error_dialogs.js:0
 #, python-format
-msgid "Odoo Network Error"
-msgstr "Odoo网络错误"
+msgid "Scolabs Network Error"
+msgstr "Scolabs网络错误"
 
 #. module: web
 #. odoo-javascript
 #: code:addons/web/static/src/views/widgets/notification_alert/notification_alert.xml:0
 #, python-format
 msgid ""
-"Odoo Push notifications have been blocked. Go to your browser settings to "
+"Scolabs Push notifications have been blocked. Go to your browser settings to "
 "allow them."
 msgstr "ERP 推送通知已被阻止。请转到您的浏览器设置以允许它们。"
 
@@ -5156,43 +5156,43 @@ msgstr "ERP 推送通知已被阻止。请转到您的浏览器设置以允许�
 #. odoo-javascript
 #: code:addons/web/static/src/webclient/settings_form_view/widgets/res_config_edition.xml:0
 #, python-format
-msgid "Odoo S.A."
-msgstr "Odoo S.A."
+msgid "Scolabs S.A."
+msgstr "Scolabs S.A."
 
 #. module: web
 #. odoo-javascript
 #: code:addons/web/static/src/core/errors/error_dialogs.js:0
 #, python-format
-msgid "Odoo Server Error"
-msgstr "Odoo服务器错误"
+msgid "Scolabs Server Error"
+msgstr "Scolabs服务器错误"
 
 #. module: web
 #. odoo-javascript
 #: code:addons/web/static/src/core/errors/error_dialogs.js:0
 #: code:addons/web/static/src/public/error_notifications.js:0
 #, python-format
-msgid "Odoo Session Expired"
-msgstr "Odoo会话过期"
+msgid "Scolabs Session Expired"
+msgstr "Scolabs会话过期"
 
 #. module: web
 #. odoo-javascript
 #: code:addons/web/static/src/core/errors/error_dialogs.js:0
 #: code:addons/web/static/src/core/errors/error_dialogs.js:0
 #, python-format
-msgid "Odoo Warning"
-msgstr "Odoo警告"
+msgid "Scolabs Warning"
+msgstr "Scolabs警告"
 
 #. module: web
 #: model_terms:ir.ui.view,arch_db:web.webclient_offline
-msgid "Odoo logo"
-msgstr "Odoo 徽标"
+msgid "Scolabs logo"
+msgstr "Scolabs 徽标"
 
 #. module: web
 #. odoo-javascript
 #: code:addons/web/static/src/webclient/barcode/barcode_scanner.js:0
 #, python-format
-msgid "Odoo needs your authorization first."
-msgstr "Odoo首先需要您的授权。"
+msgid "Scolabs needs your authorization first."
+msgstr "Scolabs首先需要您的授权。"
 
 #. module: web
 #. odoo-javascript
@@ -5585,8 +5585,8 @@ msgstr "由%s%s提供支持"
 
 #. module: web
 #: model_terms:ir.ui.view,arch_db:web.login_layout
-msgid "Powered by <span>Odoo</span>"
-msgstr "由<span>Odoo</span>提供支持"
+msgid "Powered by <span>Scolabs</span>"
+msgstr "由<span>Scolabs</span>提供支持"
 
 #. module: web
 #. odoo-javascript
@@ -8044,7 +8044,7 @@ msgstr "在打开动态占位符选择器之前，您需要选择一个模型。
 #: code:addons/web/static/src/webclient/actions/reports/utils.js:0
 #, python-format
 msgid ""
-"You need to start Odoo with at least two workers to print a pdf version of "
+"You need to start Scolabs with at least two workers to print a pdf version of "
 "the reports."
 msgstr "您需要至少使用两个工人来启动 ERP 以打印报告的pdf版本."
 
@@ -8063,8 +8063,8 @@ msgstr "您应该将Wkhtmltopdf的版本至少升级到0.12.0，以便正确显�
 #: code:addons/web/static/src/core/errors/error_dialogs.xml:0
 #: code:addons/web/static/src/public/error_notifications.js:0
 #, python-format
-msgid "Your Odoo session expired. The current page is about to be refreshed."
-msgstr "您的Odoo会话已过期。当前页面即将被刷新。"
+msgid "Your Scolabs session expired. The current page is about to be refreshed."
+msgstr "您的Scolabs会话已过期。当前页面即将被刷新。"
 
 #. module: web
 #. odoo-javascript

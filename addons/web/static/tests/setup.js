@@ -202,7 +202,7 @@ function patchBodyAddEventListener() {
     });
 }
 
-function patchOdoo() {
+function patchScolabs() {
     patchWithCleanup(odoo, {
         debug: "",
     });
@@ -355,7 +355,7 @@ export async function setupTests() {
         patchCookie();
         patchBodyAddEventListener();
         patchEventBus();
-        patchOdoo();
+        patchScolabs();
         patchSessionInfo();
         patchOwlApp();
     });

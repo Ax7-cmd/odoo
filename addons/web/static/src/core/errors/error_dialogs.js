@@ -51,20 +51,20 @@ export class ErrorDialog extends Component {
 }
 ErrorDialog.template = "web.ErrorDialog";
 ErrorDialog.components = { Dialog };
-ErrorDialog.title = _t("Odoo Error");
+ErrorDialog.title = _t("Scolabs Error");
 ErrorDialog.props = { ...standardErrorDialogProps };
 
 // -----------------------------------------------------------------------------
 // Client Error Dialog
 // -----------------------------------------------------------------------------
 export class ClientErrorDialog extends ErrorDialog {}
-ClientErrorDialog.title = _t("Odoo Client Error");
+ClientErrorDialog.title = _t("Scolabs Client Error");
 
 // -----------------------------------------------------------------------------
 // Network Error Dialog
 // -----------------------------------------------------------------------------
 export class NetworkErrorDialog extends ErrorDialog {}
-NetworkErrorDialog.title = _t("Odoo Network Error");
+NetworkErrorDialog.title = _t("Scolabs Network Error");
 
 // -----------------------------------------------------------------------------
 // RPC Error Dialog
@@ -90,13 +90,13 @@ export class RPCErrorDialog extends ErrorDialog {
         }
         switch (this.props.type) {
             case "server":
-                this.title = _t("Odoo Server Error");
+                this.title = _t("Scolabs Server Error");
                 break;
             case "script":
-                this.title = _t("Odoo Client Error");
+                this.title = _t("Scolabs Client Error");
                 break;
             case "network":
-                this.title = _t("Odoo Network Error");
+                this.title = _t("Scolabs Network Error");
                 break;
         }
     }
@@ -125,7 +125,7 @@ export class WarningDialog extends Component {
         if (this.props.exceptionName && odooExceptionTitleMap.has(this.props.exceptionName)) {
             return odooExceptionTitleMap.get(this.props.exceptionName).toString();
         }
-        return this.props.title || _t("Odoo Warning");
+        return this.props.title || _t("Scolabs Warning");
     }
 }
 WarningDialog.template = "web.WarningDialog";
@@ -143,7 +143,7 @@ export class RedirectWarningDialog extends Component {
         this.actionService = useService("action");
         const { data, subType } = this.props;
         const [message, actionId, buttonText, additionalContext] = data.arguments;
-        this.title = capitalize(subType) || _t("Odoo Warning");
+        this.title = capitalize(subType) || _t("Scolabs Warning");
         this.message = message;
         this.actionId = actionId;
         this.buttonText = buttonText;
@@ -184,7 +184,7 @@ export class SessionExpiredDialog extends Component {
 }
 SessionExpiredDialog.template = "web.SessionExpiredDialog";
 SessionExpiredDialog.components = { Dialog };
-SessionExpiredDialog.title = _t("Odoo Session Expired");
+SessionExpiredDialog.title = _t("Scolabs Session Expired");
 SessionExpiredDialog.props = { ...standardErrorDialogProps };
 
 registry

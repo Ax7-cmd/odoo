@@ -1,4 +1,4 @@
-# Part of Odoo. See LICENSE file for full copyright and licensing details.
+# Part of Scolabs. See LICENSE file for full copyright and licensing details.
 
 import json
 import logging
@@ -22,7 +22,7 @@ class Session(http.Controller):
 
     @http.route('/web/session/get_session_info', type='json', auth="user")
     def get_session_info(self):
-        # Crapy workaround for unupdatable Odoo Mobile App iOS (Thanks Apple :@)
+        # Crapy workaround for unupdatable Scolabs Mobile App iOS (Thanks Apple :@)
         request.session.touch()
         return request.env['ir.http'].session_info()
 
@@ -32,7 +32,7 @@ class Session(http.Controller):
             raise AccessError("Database not found.")
         pre_uid = request.session.authenticate(db, login, password)
         if pre_uid != request.session.uid:
-            # Crapy workaround for unupdatable Odoo Mobile App iOS (Thanks Apple :@) and Android
+            # Crapy workaround for unupdatable Scolabs Mobile App iOS (Thanks Apple :@) and Android
             # Correct behavior should be to raise AccessError("Renewing an expired session for user that has multi-factor-authentication is not supported. Please use /web/login instead.")
             return {'uid': None}
 

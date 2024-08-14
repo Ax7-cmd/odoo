@@ -1039,7 +1039,7 @@ QUnit.module("Views", ({ beforeEach }) => {
                         message: {
                             code: 200,
                             data: {},
-                            message: "Odoo server error",
+                            message: "Scolabs server error",
                         },
                         event: new Event("server_error"),
                     });

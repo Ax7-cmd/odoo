@@ -116,7 +116,7 @@ var ParentedMixin = {
     },
 };
 
-function OdooEvent(target, name, data) {
+function ScolabsEvent(target, name, data) {
     this.target = target;
     this.name = name;
     this.data = Object.create(null);
@@ -124,11 +124,11 @@ function OdooEvent(target, name, data) {
     this.stopped = false;
 }
 
-OdooEvent.prototype.stopPropagation = function () {
+ScolabsEvent.prototype.stopPropagation = function () {
     this.stopped = true;
 };
 
-OdooEvent.prototype.is_stopped = function () {
+ScolabsEvent.prototype.is_stopped = function () {
     return this.stopped;
 };
 
@@ -329,7 +329,7 @@ var EventDispatcherMixin = Object.assign({}, ParentedMixin, {
         return this;
     },
     trigger_up: function (name, info) {
-        var event = new OdooEvent(this, name, info);
+        var event = new ScolabsEvent(this, name, info);
         //console.info('event: ', name, info);
         this._trigger_up(event);
         return event;

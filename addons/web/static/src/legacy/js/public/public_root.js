@@ -199,7 +199,7 @@ export const PublicRoot = publicWidget.RootWidget.extend({
      * context to RPCs.
      *
      * @private
-     * @param {OdooEvent} event
+     * @param {ScolabsEvent} event
      */
     _onCallService: function (ev) {
         const payload = ev.data;
@@ -212,7 +212,7 @@ export const PublicRoot = publicWidget.RootWidget.extend({
      * Called when someone asked for the global public context.
      *
      * @private
-     * @param {OdooEvent} ev
+     * @param {ScolabsEvent} ev
      */
     _onContextGet: function (ev) {
         if (ev.data.extra) {
@@ -225,7 +225,7 @@ export const PublicRoot = publicWidget.RootWidget.extend({
      * Checks information about the page main object.
      *
      * @private
-     * @param {OdooEvent} ev
+     * @param {ScolabsEvent} ev
      */
     _onMainObjectRequest: function (ev) {
         var repr = $('html').data('main-object');
@@ -240,7 +240,7 @@ export const PublicRoot = publicWidget.RootWidget.extend({
      * (re)started.
      *
      * @private
-     * @param {OdooEvent} ev
+     * @param {ScolabsEvent} ev
      */
     _onWidgetsStartRequest: function (ev) {
         this._startWidgets(ev.data.$target, ev.data.options)
@@ -259,7 +259,7 @@ export const PublicRoot = publicWidget.RootWidget.extend({
      * stopped.
      *
      * @private
-     * @param {OdooEvent} ev
+     * @param {ScolabsEvent} ev
      */
     _onWidgetsStopRequest: function (ev) {
         this._stopWidgets(ev.data.$target);

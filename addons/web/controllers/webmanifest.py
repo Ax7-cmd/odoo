@@ -1,5 +1,5 @@
 # -*- coding: utf-8 -*-
-# Part of Odoo. See LICENSE file for full copyright and licensing details.
+# Part of Scolabs. See LICENSE file for full copyright and licensing details.
 import base64
 import json
 import mimetypes
@@ -45,7 +45,7 @@ class WebManifest(http.Controller):
         Using this metadata, user agents can provide developers with means to create user
         experiences that are more comparable to that of a native application.
         """
-        web_app_name = request.env['ir.config_parameter'].sudo().get_param('web.web_app_name', 'Odoo')
+        web_app_name = request.env['ir.config_parameter'].sudo().get_param('web.web_app_name', 'Scolabs')
         manifest = {
             'name': web_app_name,
             'scope': '/web',

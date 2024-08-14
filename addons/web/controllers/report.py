@@ -1,4 +1,4 @@
-# Part of Odoo. See LICENSE file for full copyright and licensing details.
+# Part of Scolabs. See LICENSE file for full copyright and licensing details.
 
 import json
 import logging
@@ -137,7 +137,7 @@ class ReportController(http.Controller):
             se = http.serialize_exception(e)
             error = {
                 'code': 200,
-                'message': "Odoo Server Error",
+                'message': "Scolabs Server Error",
                 'data': se
             }
             res = request.make_response(html_escape(json.dumps(error)))

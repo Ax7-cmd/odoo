@@ -89,7 +89,7 @@ function odooAccountItem(env) {
     return {
         type: "item",
         id: "account",
-        description: _t("My Odoo.com account"),
+        description: _t("My Scolabs.com account"),
         callback: () => {
             env.services
                 .rpc("/web/session/account")

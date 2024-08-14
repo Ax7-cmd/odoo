@@ -10,7 +10,7 @@ import { _t } from "@web/core/l10n/translation";
 // -----------------------------------------------------------------------------
 
 /**
- * @typedef {Object} OdooEnv
+ * @typedef {Object} ScolabsEnv
  * @property {import("services").Services} services
  * @property {EventBus} bus
  * @property {string} debug
@@ -23,9 +23,9 @@ import { _t } from "@web/core/l10n/translation";
 // -----------------------------------------------------------------------------
 
 /**
- * Return a value Odoo Env object
+ * Return a value Scolabs Env object
  *
- * @returns {OdooEnv}
+ * @returns {ScolabsEnv}
  */
 export function makeEnv() {
     return {
@@ -51,7 +51,7 @@ let startServicesPromise = null;
  * Start all services registered in the service registry, while making sure
  * each service dependencies are properly fulfilled.
  *
- * @param {OdooEnv} env
+ * @param {ScolabsEnv} env
  * @returns {Promise<void>}
  */
 export async function startServices(env) {

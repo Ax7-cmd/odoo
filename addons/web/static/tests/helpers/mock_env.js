@@ -93,14 +93,14 @@ export function prepareRegistriesWithCleanup() {
 }
 
 /**
- * @typedef {import("@web/env").OdooEnv} OdooEnv
+ * @typedef {import("@web/env").ScolabsEnv} ScolabsEnv
  */
 
 /**
  * Create a test environment
  *
  * @param {*} config
- * @returns {Promise<OdooEnv>}
+ * @returns {Promise<ScolabsEnv>}
  */
 export async function makeTestEnv(config = {}) {
     // add all missing dependencies if necessary
@@ -136,7 +136,7 @@ export async function makeTestEnv(config = {}) {
  * Create a test environment for dialog tests
  *
  * @param {*} config
- * @returns {Promise<OdooEnv>}
+ * @returns {Promise<ScolabsEnv>}
  */
 export async function makeDialogTestEnv(config = {}) {
     const env = await makeTestEnv(config);
